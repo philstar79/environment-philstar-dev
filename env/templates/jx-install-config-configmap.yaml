@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQf/fz2WGwUEigsySsHvqn5jANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRlZjY0MTYwYS04OGE3LTRmZjQtOWZhNi0yNzdkMGVjZWM2NGEw
+    HhcNMTkwNjA2MTcxNjE1WhcNMjQwNjA0MTgxNjE1WjAvMS0wKwYDVQQDEyRlZjY0
+    MTYwYS04OGE3LTRmZjQtOWZhNi0yNzdkMGVjZWM2NGEwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCqUVHgar2rFCnG4pjTRBScOCsM8J9F+yd51u1wAtqE
+    zuxvkx7Qy9Ypz5kOsPuYk7tIEp+pgYyBiWcF+Z4QUoQSm3eFmnMWtKqKdyu3T0CL
+    n7JjqpmzzLlCO8Uij7m3asrqqXeRj4iWbBcqcDJT5iTLNIEoCm2m2mKhJl3XQQ8e
+    3XozmLg1dvmkz4/5VMtIuWPvxNPbjHg/2cWk8yK/CrfLglEFgIbCZ0ECrcFHnfST
+    5FOLdICczLFvGSN3A6s8LftZnpuvZIxaBIBUR6Klzk0nfgtxJJCZ4aIN11737elU
+    VrVs0rA0wIimWuhcF5/tPVPzaB2/IylZOu1lvSGhNRZtAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAO
+    EY87g+uY91jamTF8KTVLqVpRACZusvthHt/gmK/OzPzTA1zxQwfchuOyccDbhuO/
+    +gZyefmuWPrXgidFEW2Y52Y84U+RUr8dzgx5gy3TblwyDEjFJbXyWGTpXP6Qh/Nf
+    iMQYfbFuCyQOxyJySavMN6IedvSsdDzJdLu6AXxSoeSBymNlXoyf4u8kUkoF44c1
+    hOqOoFZzv9xxxlODFfSnjxm1Ji4DG2mmViSDvy2N9NeC7XYuyARFvHQ452+FQKCQ
+    tFsg3YAV2P0lTrZO12U83ch83+hVBbBzY9QeFT2Zu40ILnqXm0k+kzWac8DV5ENH
+    MXeIhbfe+rzvhY1Rw4ba
+    -----END CERTIFICATE-----
+  clusterName: philstar
+  jx-install-version: 2.0.230
+  kubeProvider: gke
+  projectID: midyear-gift-242620
+  region: ""
+  secretsLocation: vault
+  server: https://34.65.220.237
+  systemVaultName: jx-vault-philstar
+  zone: europe-west6-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
